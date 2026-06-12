@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+
+    & .perfil{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;}
+
+        & img {
+        width: 250px;
+        height: 250px;
+        border-radius: 100%;
+        object-fit: cover;}
+
+        &.btns {
+            display: flex;
+            flex-direction: column;
+            gap: 17px;}
+        
+            & a {
+                background-color: black;
+                padding: 20px;
+                border-radius: 100px;
+                color: blue;
+                text-align: center;
+                font-size: 24px;
+            border: 10px solid black;
+            box-shadow: 4px 4px 0 black ;
+            transition: 2s;
+        }
+                
+                &.hover{
+                    transform: translate(4px) translate(4px);
+                    box-shadow: none;
+                }
+            
+
+                
+
+        
+    
+
+} 
